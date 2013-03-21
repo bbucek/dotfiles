@@ -1,0 +1,19 @@
+[user]
+  name = Bartlomiej Oleszczyk
+  email = bart@primate.co.uk
+[core]
+  editor = vim
+[color]
+  ui = auto
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  di = diff
+  dc = diff --cached
+  amend = commit --amend
+  aa = add --all
+  head = log -1
+  lg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+[merge]
+  tool = opendiff
